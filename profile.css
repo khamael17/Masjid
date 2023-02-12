@@ -1,0 +1,11 @@
+.prof img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .prof {
+    max-width: 75px;
+  }
+  .bg-color {
+    background-color: aliceblue;
+  }
