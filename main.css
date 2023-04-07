@@ -17,14 +17,16 @@
 }
 
 .menu {
-  /* border: 1px solid red; */
+  font-size: 2.1em;
 }
 .feed {
-  /* border: 1px solid blue; */
+  font-size: 2.1em;
 }
-
+.feed-font {
+  font-size: 0.8em;
+}
 .hadith {
-  /* border: 1px solid green; */
+  font-size: 2.2em;
  
 }
 .bg-color {
@@ -100,3 +102,43 @@ li a:hover, a:active {
   text-decoration: none;
 }
 
+body{
+  width: 100%;
+  height: 100%; 
+  
+}
+
+.prayer-time{
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.prayer-name{
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.prayer-hour{
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.feed-announcement{
+  font-size: 2.4em;
+}
+
+
+.feed-title{
+  font-size: 1.3em;
+  }
+
+  .deleteb{
+    font-size: 2em;
+  }
+
+  .community-btn{
+    font-size: 3em;
+  }
