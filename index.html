@@ -19,24 +19,27 @@
 
 <body>
 
-    <header class="mb-1">
-      <nav class="bg-success d-flex justify-content-between">
-        <div class="prof-container text-center pl-1">
-          <div class="prof text-center">
-            <img src="Allah.jfif" alt="" class="img-thumbnail rounded-circle d-md-block d-flex justify-content-end" />
+    <header class="container-lg mb-1">
+      <nav class="row px-4 bg-success d-flex justify-content-between">
+        <div class="col-lg-2  col-md-12  prof-container text-center order-lg-1  ">
+          <div class="prof text-center ">
+            <img src="Allah.jfif" alt="" class="img-thumbnail rounded-circle d-md-block d-flex justify-content-end " />
           </div>
-          <h7 class="salam">Peace Be Upon You</h7>
+          <!-- <button class="navabar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu">
+            <span class="navbar-toggler-icon "> <i class="fas fa-hammer    "></i></span>
+          </button> -->
+          <h7 class="salam d-none d-md-block"><u>Peace Be Upon You</u></h7>
         </div>
 
 
-        <div class="row ">
-          <div class="col ">
+        
+          <div class="col-lg-6 col-md-12 order-md-2  order-lg-2">
             <div class="title ">
-              <h3 class="strong  d-flex justify-content-center masjid-name">
-                Michiana Islamic Center
+              <h3 class="strong text-center  masjid-name">
+               East Lansing <span class="Institute-name">Islamic Center</span>
               </h3>
-              <div class="prayer-time d-flex pl-4">
-                <div class=" mx-2">
+              <div class="prayer-time d-flex ">
+                <div class="prayer-div">
                   <a href="#" class="d-flex">
                     <i class="fas fa-clock fa-1x text-dark mb-0"></i>
                     <h5  class="prayer-name text-white font-italic mb-0">
@@ -48,7 +51,7 @@
                   </h5>
                 </div>
 
-                <div class=" mx-2">
+                <div class="prayer-div">
                   <a href="#" class="d-flex">
                     <i class="fas fa-clock fa-1x text-dark mb-0"></i>
                     <h5  class="prayer-name text-white font-italic mb-0">
@@ -59,7 +62,7 @@
                     01:30 PM
                   </h5>
                 </div>
-                <div class=" mx-2">
+                <div class="prayer-div">
                   <a href="#" class="d-flex">
                     <i class="fas fa-clock fa-1x text-dark mb-0"></i>
                     <h5  class="prayer-name text-white font-italic mb-0">
@@ -70,7 +73,7 @@
                     04:00 PM
                   </h5>
                 </div>
-                <div class=" mx-2">
+                <div class="prayer-div">
                   <a href="#" class="d-flex">
                     <i class="fas fa-clock fa-1x text-dark mb-0"></i>
                     <h5  class="prayer-name text-white font-italic mb-0">
@@ -81,7 +84,7 @@
                     05:30 PM
                   </h5>
                 </div>
-                <div class=" mx-2">
+                <div class="prayer-div">
                   <a href="#" class="d-flex">
                     <i class="fas fa-clock fa-1x text-dark mb-0"></i>
                     <h5  class="prayer-name text-white font-italic mb-0">
@@ -92,7 +95,7 @@
                     07:30 PM
                   </h5>
                 </div>
-                <div class=" mx-2">
+                <div class="prayer-div">
                   <a href="#" class="d-flex">
                       <i class="fas fa-clock fa-1x text-dark mb-0"></i>
                       <h5  class=" prayer-name text-white font-italic mb-0">
@@ -103,10 +106,13 @@
                       01:30 PM
                   </h5>
               </div>
-              </div>
+              <!-- </div><button class="navabar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu">
+                <span class="navbar-toggler-icon "></span>
+              </button> -->
             </div>
           </div>
         </div>
+        <div class="col-lg-2 col-md-4 d-none d-lg-block order-md-3  ">
         <div class="prof-container text-center">
           <div class="prof">
             <img src="imam.png" alt="" class="img-thumbnail rounded-circle d-md-block" />
@@ -115,12 +121,46 @@
             <h7 class="imam-nav-name"><u>Imam Khalilou</u></h7>
           </a>
         </div>
-      </nav>
+     </div> 
+    </nav>
+    <div class="row">
+      <div class="container-fluid bg-dark">
+        <!-- <button class="navabar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu">
+          <span class="navbar-toggler-icon "></span>
+        </button> -->
+        <div class="collapse show navbar-collapse  d-md-block d-xl-none" id="navbarmenu">
+          <ul class="horizontal-list ">
+            <li class="nav-item">
+              <a href="index.html" class="nav-lin active">Community</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-lin ">After-school</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-lin text-warning">Islamic Class</a>
+            </li>
+            <li class="nav-item">
+              <a href="donate.html" class="nav-lin text-warning">Youth</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-lin text-warning">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a href="events.html" class="nav-lin text-warning">Events</a>
+            </li>
+        
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-lin text-warning">Profile</a>
+            </li>
+          </ul>
+      </div>
+    </div>
     </header>
 
     <!-- Menu Beginning -->
-    <section class="d-flex justify-content-between ">
-      <div class="menu col-lg-3 p-0" style="max-height: 80vh">
+    <section class=" container-fluid ">
+    <div class="row d-flex justify-content-between">
+      <div class="menu col-lg-3 p-0 d-none d-lg-block" style="max-height: 80vh">
         <div class="card bg-color" style="max-height: 80vh">
           <div class="card-header bg-primary text-white text-uppercase text-center py-2">
             <a href="index.html" class="btn text-white py-3"><h5 class="community-btn">Our Community</h5></a> 
@@ -157,10 +197,10 @@
           </div>
         </div>
       </div>
-    <!-- Menu End -->
+     <!-- Menu End -->
 
      <!-- Feed beginning -->
-     <div class="feed col-lg-5 shadow p-0 mb-5 bg-body rounded">
+     <div class="feed col-lg-5 shadow p-0 mb-0 bg-body rounded  col-md-5 order-md-3 col-md-12 order-sm-1 ">
 
 
 
@@ -169,27 +209,27 @@
              
       
      
-      <div class=" p-0">
-          <div id="example" class="carousel carousel-dark slide" data-ride="carousel">
-              <ul class="carousel-indicators ">
+      <div class=" p-0 order-sm-2">
+          <div id="example" class="carousel carousel-dark slide " data-ride="carousel">
+              <ul class="carousel-indicators d-none d-lg-flex ">
                   <li data-target="#example" data-slide-to='0' class="active bg-dark"></li>
                   <li data-target="#example" data-slide-to='1' class=" bg-dark"></li>
                   <li data-target="#example" data-slide-to='2' class=" bg-dark"></li>
                  
               </ul>
-  
-              <!-- images style="font-size: 1em;" -->
+              
               <div class="carousel-inner p-0 ">
+                <div id="caroussel-card" class=" d-none d-lg-block">
                   <div class="carousel-item active">
-                    <div class="card " style="min-height: 80vh">
+                    <div class="card "     >
                       <div
                         class="card-header font-italic text-capitalize"
                         style="background-color: gold"
                       >
-                        <strong><h3 class="feed-announcement"  >Fund Raisng</h3></strong>
+                        <strong><h3 class="feed-announcement">Fund Raisng</h3></strong>
                       </div>
-                      <div class="card-body bg-light">
-                        <h5 class="card-title py-2 feed-title" >Sunday School Lunch</h5>
+                      <div class="card-body bg-light "  >
+                        <h5 class=" card-title py-2 feed-title"  >Sunday School Lunch</h5>
                         <p class="card-text announcement feed-font " style="font-weight: 100;">
                           Dear brothers and sisters, as you all know the new school year is
                           starting in about a month, and we need funds to support the
@@ -198,50 +238,114 @@
                           for the kids, and this come at a cost .Please be generous in your
                           donations
                         </p>
-                        <footer class="blockquote-footer text-right">Board of Directors</footer>
+                        <footer class="blockquote-footer mb-4 text-right ">Board of Directors</footer>
                       </div>
                     </div>
                   </div>
                   <div class="carousel-item  ">
-                    <div class="card " style="min-height: 80vh">
+                    <div class="card " style="min-height: inherit">
                       <div
                         class="card-header font-italic text-capitalize"
                         style="background-color: cyan"
                       >
-                        <strong><h3 class="feed-font">General Announcement</h3></strong>
+                        <strong><h3 class="feed-announcement">General Announcement</h3></strong>
                       </div>
-                      <div class="card-body bg-light">
-                        <h5 class="card-title text-capitalize feed-font">Prayer Time change</h5>
-                        <p class="card-text announcement ">
+                      <div class="card-body bg-light" >
+                        <h5 class="card-title text-capitalize feed-title">Prayer Time change</h5>
+                        <p class="card-text announcement feed-font"style="font-weight: 100;">
                           From November 14th,2023 we will be praying the prayer of  at 5:30AM and the prayer of Ishaa at 6:30PM. Please be on time for the prayer. May Allah reward you for your efforts.
                         </p>
                         <footer class="blockquote-footer text-right feed-font">Imam Khalilou</footer>
                         <div class="container text-center">                         
-                            <button type="submit" class="btn btn-outline-danger mb-1"  ><span class="deleteb">Delete</span></button>                        
+                            <button type="submit" class="btn btn-outline-danger mb-4"  ><span class="deleteb">Delete</span></button>                        
                       </div>
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item">
-                    <div class="card " style="min-height: 80vh">
+                  <div class="carousel-item ">
+                    <div class="card " style="min-height: inherit">
                       <div
                         class="card-header font-italic text-capitalize"
                         style="background-color: red"
                       >
-                        <strong><h3>Funeral</h3></strong>
+                        <strong><h3 class="feed-announcement">Funeral</h3></strong>
                       </div>
-                      <div class="card-body bg-light">
-                        <h5 class="card-title text-capitalize">To God we belong and to him we shall return</h5>
-                        <p class="card-text announcement">
+                      <div class="card-body bg-light" >
+                        <h5 class="card-title text-capitalize feed-title">To God we belong and to him we shall return</h5>
+                        <p class="card-text announcement feed-font"style="font-weight: 100;">
                           Dear brothers and sisters, it's with great sadness that we inform you of the passing of our beloved brother, Mr. John Doe. May Allah grant him Jannah and may Allah grant his family the strength to bear this loss. May Allah reward you for your efforts.
                         </p>
                         <footer class="blockquote-footer text-right">Imam Khalilou</footer>
-                        <button type="submit" class="btn btn-danger mb-1" ><span class="deleteb">Delete</span> </button>
+                        <button type="submit" class="btn btn-danger mb-4" ><span class="deleteb">Delete</span> </button>
                       </div>
                     </div>
                   </div>
-                 
-              </div>
+                 </div>
+                 <!-- list of view ///////////////////////////////////////////////////// -->
+                 <div id="list-cards" class="d-lg-none">
+                  <div class="mb-4 mx-1 shadow">
+                   <div class="card " style="min-height: 40vh">
+                     <div
+                       class="card-header font-italic text-capitalize"
+                       style="background-color: gold"
+                     >
+                       <strong><h3 class="feed-announcement"  >Fund Raisng</h3></strong>
+                     </div>
+                     <div class="card-body bg-light">
+                       <h5 class="card-title py-2 feed-title" >Sunday School Lunch</h5>
+                       <p class="card-text announcement feed-font " style="font-weight: 100;">
+                         Dear brothers and sisters, as you all know the new school year is
+                         starting in about a month, and we need funds to support the
+                         kitchen for the kid's lunch.W can't make this possible without
+                         you,we are commited this year to provide Hala and organic foods
+                         for the kids, and this come at a cost .Please be generous in your
+                         donations
+                       </p>
+                       <footer class="blockquote-footer text-right">Board of Directors</footer>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="mb-4 mx-1 shadow">
+                   <div class="card " style="min-height: 40vh">
+                     <div
+                       class="card-header font-italic text-capitalize"
+                       style="background-color: cyan"
+                     >
+                       <strong><h3 class="feed-announcement">General Announcement</h3></strong>
+                     </div>
+                     <div class="card-body bg-light">
+                       <h5 class="card-title text-capitalize feed-title">Prayer Time change</h5>
+                       <p class="card-text announcement feed-font"style="font-weight: 100;">
+                         From November 14th,2023 we will be praying the prayer of  at 5:30AM and the prayer of Ishaa at 6:30PM. Please be on time for the prayer. May Allah reward you for your efforts.
+                       </p>
+                       <footer class="blockquote-footer text-right feed-font">Imam Khalilou</footer>
+                       <div class="container text-center">                         
+                           <button type="submit" class="btn btn-outline-danger mb-1"  ><span class="deleteb">Delete</span></button>                        
+                     </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="mb-4 mx-1 shadow">
+                   <div class="card " style="min-height: 40vh">
+                     <div
+                       class="card-header font-italic text-capitalize"
+                       style="background-color: red"
+                     >
+                       <strong><h3 class="feed-announcement">Funeral</h3></strong>
+                     </div>
+                     <div class="card-body bg-light">
+                       <h5 class="card-title text-capitalize feed-title">To God we belong and to him we shall return</h5>
+                       <p class="card-text announcement feed-font"style="font-weight: 100;">
+                         Dear brothers and sisters, it's with great sadness that we inform you of the passing of our beloved brother, Mr. John Doe. May Allah grant him Jannah and may Allah grant his family the strength to bear this loss. May Allah reward you for your efforts.
+                       </p>
+                       <footer class="blockquote-footer text-right">Imam Khalilou</footer>
+                       <button type="submit" class="btn btn-danger mb-1" ><span class="deleteb">Delete</span> </button>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <!-- list of view ///////////////////////////////////////////////////// -->
+            </div>
      <!-- end of images -->
       <a href="#example" class="carousel-control-prev" data-slide="prev">
           <span class="carousel-control-prev-icon text-dark"></span>
@@ -252,13 +356,13 @@
           </div>
       </div>
   
-  </div>
+      </div>
 
-  <!-- Feed end -->
+     <!-- Feed end -->
 
-    <!-- Hadith Beginning -->
-    <div class="col-lg-3 p-0">
-      <section id="review" class="card" style="min-height: 50vh; background-color: aliceblue">
+     <!-- Hadith Beginning -->
+     <div class="col-lg-3 col-md-3 order-md-3 col-md-12 order-md-3 p-0 order-sm-3">
+      <section id="review" class="card " style="background-color:aliceblue" >
         <div class="container">
           <div class="row">
             <div class="col text-center pt-3">
@@ -269,7 +373,7 @@
           </div>
           <div class="row">
             <div class="my-4 px-2">
-              <blockquote class=" blockquote text-right">
+              <blockquote class=" blockquote text-center">
                 <p class="hadith  font-italic">
                   <i class="fas fa-quote-left fa-1x mr-3"></i> Allah's
                   Messenger (ﷺ) (p.b.u.h) said, "The taking of a bath on
@@ -284,9 +388,9 @@
           </div>
         </div>
       </section>
-    </div>
-
-    <!-- Hadith End -->
+      </div>
+  </div>
+      <!-- Hadith End -->
   </section>
 
   <footer></footer>
@@ -297,6 +401,32 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script>
+    // Function to switch to list view on small screens
+    function switchToListView() {
+        var carouselInner = document.querySelector('.carousel-inner');
+        carouselInner.classList.add('list-view');
+    }
+
+    // Check screen width and switch to list view if needed
+    window.addEventListener('load', function () {
+        if (window.innerWidth < 576) {
+          
+            switchToListView();
+        }
+    });
+
+    window.addEventListener('resize', function () {
+        if (window.innerWidth < 576) {
+            switchToListView();
+        } else {
+            var carouselInner = document.querySelector('.carousel-inner');
+            carouselInner.classList.remove('list-view');
+        }
+    });
+</script>
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
